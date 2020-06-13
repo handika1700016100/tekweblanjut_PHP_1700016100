@@ -1,0 +1,31 @@
+<html>
+<body>
+	<form action="latihan_1_mhs.php" method="post">
+		NIM  : <input type="id" name="nim" /> <br><br>
+		Nama: <input type="text" name="nama" /> <br><br>
+	
+		Jenis Kelamin: 
+	   <input type="radio" id="Laki-Laki" name="gender" value="Laki-Laki">
+     <label for="Laki-Laki">Laki-Laki</label>
+ 	 <input type="radio" id="Perempuan" name="gender" value="Perempuan">
+ 	 <label for="Perempuan">Perempuan</label><br><br>
+
+ 	 	Alamat :<br>
+ 	 	<textarea name="alamat" rows="2" cols="50"></textarea><br><br>
+
+ 	 	<label for="prodi">Program Studi: </label>
+  	<select name="prodi" id="PS">
+    	<option value="Fisika">Fisika</option>
+    	<option value="Biologi">Biologi</option>
+  		<option value="Matematika">Matematika</option>
+  		<option value="Sistem Informasi">Sistem Informasi</option>
+  	</select><br><br>
+
+  		Bahasa Pemrograman yang dikuasai : <br>
+  		<input type= checkbox name="prodikuasai" value="pascal/delphi"><label for="pascal/delphi">PASCAL/DELPHI</label><br>
+  		<input type= checkbox name="prodikuasai" value="c/c++" ><label for="c/c++">C/C++</label><br>
+  		<input type= checkbox name="prodikuasai" value="Visual Basic" ><label for="Visual Basic">Visual Basic</label><br>
+ 	 	  <input type="submit" value = "Kirim" />
+</form> 
+</body>
+</html>
